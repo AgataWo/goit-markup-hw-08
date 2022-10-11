@@ -1,0 +1,26 @@
+.nav-ul {
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 93px;
+    position: relative;
+
+    & .nav-link {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+    }
+}
+
+.nav-ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+}
+
+.nav-ul__item {
+    padding-right: 46px;
+
+    &:not(:last-child) {
+        margin-right: 0px;
+    }
+}
